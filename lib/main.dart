@@ -3,7 +3,7 @@ import 'Login.dart';
 
 void main() {
   runApp(MaterialApp(home: MyApp(), routes: <String, WidgetBuilder>{
-    '/login': (BuildContext context) => LoginForm(),
+    'login': (BuildContext context) => LoginForm(),
   }));
 }
 
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         //child: Text('Hello World'),     // Replace this text...
         child: ElevatedButton(
           child: Text('Login Screen'),
-          onPressed: () => Navigator.pushNamed(context, '/login'),
+          onPressed: () => Navigator.pushNamed(context, 'login'),
         ), // With this text.
       ),
     );

@@ -3,13 +3,11 @@ import 'package:flutter/material.dart';
 // Define a LoginForm Widget.
 class LoginForm extends StatefulWidget {
   @override
-  LoginFormState createState() {
-    return LoginFormState();
-  }
+  _LoginFormState createState() => _LoginFormState();
 }
 
 // Define a State Class for the Widget.
-class LoginFormState extends State<LoginForm> {
+class _LoginFormState extends State<LoginForm> {
   // UI
   @override
   Widget build(BuildContext context) {
